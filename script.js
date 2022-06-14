@@ -5,3 +5,4 @@ menuToggle.addEventListener("click", () => {
     menuToggle.classList.toggle("active")
     showcase.classList.toggle("active")
 })
+document.querySelector("video").playbackRate = 0.5;

@@ -18,7 +18,7 @@
     justify-content: space-between;
     align-items: center;
     background: #111;
-    color: aliceblue;
+    color: rgba(240, 248, 255, 0.482);
     z-index: 2;
     transition: 1.1s;
 }
@@ -41,9 +41,15 @@
 }
 
 .logo {
-    font-family: "Rokkitt";
-    text-transform: uppercase;
+    transition: 2s;   
     cursor: pointer;
+}
+
+.logo:hover {
+    transform: scale(3);
+    filter: brightness(1.2);
+    color: #f4f4039a;
+    
 }
 
 .toggle {
@@ -75,6 +81,7 @@
     height: 100%;
     object-fit: cover;
     opacity: 0.8;
+    
 }
 
 .overlay {
@@ -90,7 +97,7 @@
 .text {
     position: relative;
     z-index: 10;
-
+    transition: 4s;
 }
 
 .text h2 {
@@ -114,20 +121,11 @@
     max-width: 700px;
 }
 
-.text a {
-    display: inline-block;
-    font-size: 1em;
-    background: #fff;
-    padding: 10px 30px;
-    text-decoration: none;
-    color: #111;
-    margin-top: 10px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
 
-.text a:hover {
-    letter-spacing: 6px;
+.text:hover {
+    letter-spacing: 2px;
+    color:#f1df1480;
+    
 }
 
 .social {
