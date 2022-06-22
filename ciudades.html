@@ -7,23 +7,38 @@
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/9ff96f2da2.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./Air_icon-icons.com_54963.ico" class="ico" />
-    <title>Viajes </title>
+    <title>Inspirate</title>
 </head>
-<body> 
+<body>
     <section class="showcase">
         <header>
             <h2 class="logo"><i class="fa-solid fa-earth-americas"></i></h2>
             <div class="toggle"></div>
         </header>
 
-        <video src="./Skyscrapers.mp4" muted loop autoplay ></video>
+        
         
         <div class="overlay"></div>
 
-        <div class="text">
-            <h2>Empieza tu viaje</h2>
-            <h3>Explora el mundo</h3>
-            <p>Aqui te ayudaremos a iniciar tu viaje, encuentra ciudades, conquista montañas, la Tierra pertenece a los que se animan...</p>
+        <div id="app">
+            <section id="lugares">
+                <div class="container">
+
+                    <h2>Encuentra tu viaje</h2>
+                    <br><br>
+                    <div class="lugares-grid">
+                        <imagen-item
+                            v-for="p in imagenes"
+                            v-bind:imagen="p"
+                        >
+
+                        </imagen-item>
+                    </div>                    
+                    
+                </div>
+
+            </section>
+            
         </div>
 
         <ul class="social">
@@ -44,6 +59,9 @@
             <li><a href="#">Contacto</a></li>
         </ul>
     </div>
-   <script src="./index.js"></script> 
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="./fetchViajes.js"></script>
+    <script src="./index.js"></script> 
+    
 </body>
 </html>
