@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/9ff96f2da2.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./Air_icon-icons.com_54963.ico" class="ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Inspirate</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo"><i class="fa-solid fa-earth-americas"></i></h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="./Hot Air Balloon - 93305.mp4" muted loop autoplay  ></video>
+        
+        <div class="overlay"></div>
+
+        <div id="app">
+            <section id="lugares">
+                <div class="container">
+
+                    <h2>Encuentra tu lugar</h2>
+                    <br><br>
+                    
+                    <div class="lugares">
+                        <imagen-item
+                            v-for="p in imagenes"
+                            v-bind:imagen="p"
+                        >
+
+                        </imagen-item>
+                    </div>                    
+                    
+                </div>
+
+            </section>
+            
+        </div>
+
+        <ul class="social">
+            
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+
+        </ul>
+
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Ciudades</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </div>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="./fetchViajes.js"></script>
+    <script src="./index.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+</body>
+</html>
