@@ -33,7 +33,7 @@ app.component(
             }
         },
         template: `
-            <div class="card bg-dark text-white">
+            <div class="card bg-dark text-white card-wrapp">
               <img :src="imagen.webformatURL" class="card-img" alt="...">
               <div class="card-img-overlay">
                 

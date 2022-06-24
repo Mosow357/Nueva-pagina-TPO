@@ -28,7 +28,7 @@
 }
 
 .showcase header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -50,6 +50,13 @@
     filter: brightness(1.2);
     color: #f4f4039a;
     
+}
+
+.lugares {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .toggle {
@@ -124,14 +131,24 @@
 
 .text:hover {
     letter-spacing: 2px;
-    color:#f1df1480;
+    color:#08080880;
     
 }
 
+.frase {
+    position: fixed;
+    z-index: 100;
+}
+
+.card-title {
+    color: rgb(22, 192, 192);
+}
+
 .social {
-    position: absolute;
+    position: fixed;
     bottom: 20px;
-    left: 300px;
+    align-items: center;
+    justify-content: center;
     z-index: 10;
     display: flex;
 }
@@ -156,6 +173,7 @@
 }
 
 .menu {
+    background-color: aliceblue;
     position: absolute;
     top: 0;
     right: 0;
@@ -167,7 +185,7 @@
 }
 
 .menu ul {
-    position: relative;
+    position: fixed;
     list-style: none;
 }
 
@@ -194,5 +212,14 @@
 
     .text h3 {
         font-size: 2em;
+    }
+
+    .social {
+        
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .frase {
+        margin-left: 8rem;
     }
 }
