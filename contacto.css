@@ -107,6 +107,14 @@ ul {
     margin: 0 0 1rem 0;
 }
 
+.warnings {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: rgb(32, 156, 218);
+    padding-top: 20px;
+}
+
 
 @media(min-width: 700px) {
     body {
