@@ -28,34 +28,35 @@
         <h1 class="logo2">Contac<span>to</span></h1>
 
         <div class="contact-wrapper animated bounceInUp">
-            <div class="contact-form">
+            <div class="contact-form" id="form">
                 
                 <form action="">
                     <p>
                         <label>Nombre Completo</label>
-                        <input type="text" name="fullname">
+                        <input type="text" name="fullname" id="name">
                     </p>
                     <p>
                         <label>Email</label>
-                        <input type="email" name="email">
+                        <input type="email" name="email" id="email">
                     </p>
                     <p>
                         <label>Numero de Telefono</label>
-                        <input type="tel" name="phone">
+                        <input type="tel" name="phone" id="phone">
                     </p>
                     <p>
                         <label>Asunto</label>
-                        <input type="text" name="affair">
+                        <input type="text" name="affair" id="affair">
                     </p>
                     <p class="block">
                         <label>Mensaje</label>
                         <textarea name="message" rows="3"></textarea>
                     </p>
                     <p class="block">
-                        <button>
+                        <button type="submit">
                             Enviar
                         </button>
                     </p>
+                    <p class="warnings" id="warnings"></p>
                 </form>
             </div>
             <div class="contact-info">
@@ -87,7 +88,7 @@
             <li><a href="./contacto.html">Contacto</a></li>
         </ul>
     </div>
-    
+    <script src="./validation.js"></script>
     <script src="./index.js"></script> 
 </body>
 
