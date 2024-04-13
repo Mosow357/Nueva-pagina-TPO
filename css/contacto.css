@@ -22,6 +22,7 @@ ul {
     padding: 0;
 }
 
+
 .logo2 {
     position: relative;
     text-align: center;
@@ -29,7 +30,7 @@ ul {
     margin-top: 15px;
 }
 
-.logo span {
+.logo2 span {
     color: #03a9f4;
 }
 .content {
@@ -40,6 +41,8 @@ ul {
 .contact-wrapper {
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
     border-radius: 7px;
+    
+
 }
 
 .contact-wrapper > * {
@@ -49,6 +52,7 @@ ul {
 
 .contact-form {
     background: #222222;
+    
     
 }
 

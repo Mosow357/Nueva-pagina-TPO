@@ -1,0 +1,20 @@
+.card-wrapp{
+    display: grid;
+    row-gap: 2;
+}
+
+.frase {
+    font-size: 3rem;
+}
+
+.frase span {
+    color: #03a9f4;
+}
+
+.lugares {
+    margin-top: 1rem;
+}
+
+.card {
+    box-shadow: 0px 5px 5px #03a9f4;
+}

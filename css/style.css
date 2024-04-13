@@ -13,9 +13,9 @@
     right: 0;
     width: 100%;
     min-height: 100vh;
-    padding: 100px;
-    display: flex;
-    justify-content: space-between;
+    
+    
+    
     align-items: center;
     background: #111;
     color: rgba(240, 248, 255, 0.482);
@@ -32,7 +32,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 40px 100px;
+    padding: 12px 7px;
     z-index: 100;
     display: flex;
     align-items: center;
@@ -46,9 +46,9 @@
 }
 
 .logo:hover {
-    transform: scale(3);
+    transform: scale(2);
     filter: brightness(1.2);
-    color: #f4f4039a;
+    color: #03a4f49a;
     
 }
 
@@ -63,7 +63,7 @@
     position: relative;
     width: 60px;
     height: 60px;
-    background: url(./menu-three-outlined-rounded-lines-symbol_icon-icons.com_73215.png);
+    background: url(../media/menu-three-outlined-rounded-lines-symbol_icon-icons.com_73215.png);
     filter: invert(1);
     background-repeat: no-repeat;
     background-size: 30px;
@@ -72,7 +72,7 @@
 }
 
 .toggle.active{
-    background: url(./icons8-close-64.png);
+    background: url(../media/icons8-close-64.png);
     background-repeat: no-repeat;
     filter: brightness(3);
     background-size: 60px;
@@ -105,6 +105,7 @@
     position: relative;
     z-index: 10;
     transition: 4s;
+    margin-top: 74px;
 }
 
 .text h2 {
@@ -141,16 +142,19 @@
 }
 
 .card-title {
-    color: rgb(22, 192, 192);
+    color: rgb(9, 10, 10);
+    text-shadow: 1px 1px snow;
 }
 
 .social {
     display: flex;
-    position: fixed;
+    
     bottom: 20px;
-    align-items: center;
+    opacity: 0.6;
     justify-content: center;
     z-index: 10;
+    text-shadow: 1px 1px black;
+    padding-top: 7rem;
     
 }
 
