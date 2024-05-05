@@ -149,7 +149,7 @@
 
 .social {
     display: flex;
-    
+    position: sticky;
     bottom: 20px;
     opacity: 0.6;
     justify-content: center;
@@ -216,11 +216,11 @@
     }
 
     .text h2 {
-        font-size: 3em;
+        font-size: 2rem;
     }
 
     .text h3 {
-        font-size: 2em;
+        font-size: 2rem;
     }
 
     .social {
@@ -229,6 +229,6 @@
         margin-bottom: 15px;
     }
     .frase {
-        margin-left: 8rem;
+        margin-left: 2rem;
     }
 }
