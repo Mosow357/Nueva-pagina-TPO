@@ -213,6 +213,7 @@
 @media (max-width: 798px) {
     .showcase, .showcase header {
         padding: 40px;
+        justify-content: end;
     }
 
     .text h2 {
@@ -230,5 +231,8 @@
     }
     .frase {
         margin-left: 2rem;
+    }
+    .logo {
+       font-size: 0px;
     }
 }
